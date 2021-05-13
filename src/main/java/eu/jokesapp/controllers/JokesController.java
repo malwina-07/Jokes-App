@@ -19,5 +19,7 @@ public class JokesController {
         model.addAttribute("joke", jokesService.getRandomJoke());
         return "index";
     }
+
+
 //    strona na ktorej mozna stworzych inny banner.txt https://patorjk.com/
 }

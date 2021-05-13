@@ -8,5 +8,13 @@
 <h2>Chuck Norris Quotes!</h2>
 <p th:text="${joke}">Here show jokes.....</p>
 
+<button type="submit" onClick="refreshPage()">New Joke Please</button>
+
+
+<script>
+    function refreshPage(){
+        window.location.reload();
+    }
+</script>
 </body>
 </html>
